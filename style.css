@@ -1,0 +1,121 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.logo {
+    width: 4rem;
+    height: 4rem;
+}
+
+.btn_log {
+    transition: all 0.3s;
+}
+
+.btn_log:hover {
+    background-color: rgb(112 26 117);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+
+.btn_log:active {
+    background-color: rgb(112 26 117);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    transform: translateY(2px);
+}
+
+.btn_sign {
+    transition: all 0.3s;
+}
+
+.btn_sign:hover {
+    background-color: rgb(241 245 249);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    border: 2px solid #f7f7f7;
+    transform: translateY(-2px);
+}
+
+.btn_sign:active {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    transform: translateY(2px);
+}
+
+.video {
+    opacity: 0.3;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.section_hero {
+    height: 130vh;
+}
+
+.hero_div {
+    transform: translate(-50%, -50%);
+}
+
+.logos {
+    width: 15%;
+    filter: brightness(0);
+    opacity: 60%;
+}
+
+.link {
+    transition: all 0.3s;
+}
+
+.link:hover {
+    border-bottom: 2px solid rgb(112 26 117);
+}
+
+.how_it_work {
+    margin-top: 30px;
+    background-image: linear-gradient(to right bottom, #a770ef, #cf8bf3, #fdb99b);
+    border-radius: 44px;
+    height: 100%;
+}
+
+.circel {
+    border-width: 20px;
+}
+
+.left_side-box-3 {
+    background-image: linear-gradient(to right bottom, #ad5389, #3c1053);
+}
+
+.ph-bird-3 {
+    transform: rotateY(180deg);
+}
+
+.work_box {
+    display: flex;
+    height: fit-content;
+    align-items: center;
+}
+
+.left_side {
+    width: 1000px;
+    height: 500px;
+}
+
+.pricing {
+    margin-top: 30px;
+    background-image: linear-gradient(to right bottom, #a770ef, #cf8bf3, #fdb99b);
+    border-radius: 44px;
+    height: 100%;
+}
+
+.pricing_item {
+    transition: all 0.5s;
+}
+
+.pricing_item:hover {
+    transform: translateY(-12px);
+}
+
+.cta {
+    margin-top: 30px;
+    background-image: linear-gradient(to right bottom, #cc2b5e, #753a88);
+    border-radius: 44px;
+    height: 100%;
+}
